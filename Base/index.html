@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Titre de la page web -->
+    <title>Pierre, feuille, ciseaux</title>
+
+    <!-- Import du fichier css pour la mise en forme -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Titre principal du site -->
+    <header>
+        <h1>
+            Pierre, Feuille, Ciseaux
+        </h1>
+    </header>
+
+    <!-- Compteur des scores -->
+    <div class="score-board">
+        <div id="user-label" class="badge">Joueur</div>
+        <div id="computer-label" class="badge">Ordinateur</div>
+        <span id="user-score">0</span> : <span id="computer-score">0</span>
+    </div>
+
+    <!-- Phrase qui va être mise à jour à chaque coup joué -->
+    <div class="resultat">
+        <p>Pierre -> Feuille -> Ciseaux</p>
+    </div>
+
+    <!-- Zone de jeu -->
+    <div class="jeu">
+        <div class="choix" id="p">
+            <img src="./img/pierre.png" alt="">
+        </div>
+        <div class="choix" id="f">
+            <img src="./img/feuille.png" alt="">
+        </div>
+        <div class="choix" id="c">
+            <img src="./img/ciseaux.png" alt="">
+        </div>
+    </div>
+
+    <!-- Message -->
+    <p id="message">choisis ta main, le premier arrivé à 10 gagne</p>
+
+    <!-- Import du fichier Javascript (là où se trouve la logique du jeu) -->
+    <script src="" type="text/javascript"></script>
+</body>
+
+</html>
